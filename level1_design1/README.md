@@ -1,5 +1,10 @@
 # Level-1 Design-1
 
+## Bugs
+
+#### 1. Bug at Select Pin 13
+
+// Bug Image
 
 ## Points I Discovered
 
