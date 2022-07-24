@@ -14,11 +14,13 @@ async def test_mux(dut):
     
     for i in range(31):                                 
         exec("dut.inp%d.value = %d" % (i,randrange(4)))        #  Assigning inp0 to inp30
+        if(i==12):                                             # Assigning inp12=0 to detect Bug 2
+            dut.inp12.value = 0
         dut.sel.value = i                                      # Assigning out
         await Timer(1, "ns")
         if(dut.out.value != eval(dict[i])):
             print("\nSelect Value - %d" % dut.sel.value)       # Checking select pin value
-            print("Out Value - %d" % dut.out.value)            # Checking out pin value
+            print("Out Value - %d i.e. Default Value" % dut.out.value)
             print("Respective inp pin value in binary : " + dict[i]+"\n")
             raise TestFailure("Failure!")
     print('\nCompletion of Python Basic Testcase Verification\n')
