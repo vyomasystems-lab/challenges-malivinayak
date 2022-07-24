@@ -23,5 +23,5 @@ Case ```5'b01101``` is appear twice for ```inp12``` and ```inp13```, due to this
 | | |
 | :--: | :--: |
 | Python Test and Terminal | Bug in verilog |
-| <p align="left"> <img src="" alt="Bug Screenshot with Python test" /> | <img src=""/> | 
+| <p align="left"> <img src="https://user-images.githubusercontent.com/66154908/180636645-9940f05e-f1a5-4ed6-9f32-1afa88a70321.png" alt="Bug Screenshot with Python test" /> | <img src="https://user-images.githubusercontent.com/66154908/180636655-6cc3134f-2bd0-4082-a8f7-a38520a225c9.png"/> | 
  
