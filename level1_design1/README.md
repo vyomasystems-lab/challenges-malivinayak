@@ -2,7 +2,7 @@
 
 ## Bugs
 
-#### 1. Case 5'b01100 is misssing
+### 1. Case 5'b01100 is misssing
 
 | | |
 | :--: | :--: |
