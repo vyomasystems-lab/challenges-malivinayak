@@ -13,7 +13,7 @@ async def test_mux(dut):
         dict[i] = "dut.inp"+ str(i) + ".value"
     
     for i in range(31):                                 
-        exec("dut.inp%d.value = %d" % (i,randrange(4)))        #  Assigning inp0 to inp30
+        exec("dut.inp%d.value = %d" % (i,randrange(4)))        # Assigning inp0 to inp30
         dut.sel.value = i                                      # Assigning out
         await Timer(1, "ns")
         if(dut.out.value != eval(dict[i])):
