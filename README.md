@@ -4,6 +4,6 @@
 
 
 # Licenses
-[![Vyoma](https://img.shields.io/badge/License_1-Vyoma-blue.svg?style=flat-square)]()
-[![IITM](https://img.shields.io/badge/License_2-_IITM_-orange.svg?style=flat-square) ]()
-[![cocotb](https://img.shields.io/badge/License_3-cocotb-green.svg?style=flat-square) ]()
+[![Vyoma](https://img.shields.io/badge/License_1-Vyoma-blue.svg?style=flat-square)](./LICENSE.vyoma)
+[![IITM](https://img.shields.io/badge/License_2-_IITM_-orange.svg?style=flat-square) ](./LICENSE.iitm)
+[![cocotb](https://img.shields.io/badge/License_3-cocotb-green.svg?style=flat-square) ](./LICENSE.cocotb)
