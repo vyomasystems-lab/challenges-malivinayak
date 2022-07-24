@@ -18,7 +18,7 @@ Case ```5'b01101``` is appear twice for ```inp12``` and ```inp13```, due to this
 | Python Test and Terminal | Bug in verilog |
 | <p align="left"> <img src="https://user-images.githubusercontent.com/66154908/180636516-2f2b55a3-2cb3-4d4b-8e99-053e982a79c3.png" alt="Bug Screenshot with Python test" /> | <img src="https://user-images.githubusercontent.com/66154908/180636340-05ca9fe0-1ef2-4be4-b507-f16ce625f253.png"/> | 
 
-### 1. Case ```5'b01110``` is misssing
+### 3. Case ```5'b01110``` is misssing
 
 | | |
 | :--: | :--: |
