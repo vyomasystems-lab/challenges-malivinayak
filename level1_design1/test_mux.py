@@ -17,8 +17,7 @@ async def test_mux(dut):
         dut.sel.value = i                                      # Assigning out
         await Timer(1, "ns")
         if(dut.out.value != eval(dict[i])):
-            print("\nSelect Value - %d" % dut.sel.value)       # Checking select pin value
-            print("Out Value - %d i.e. Default Value" % dut.out.value)
+            print("\nSelect Value - %d\nOut Value - %d i.e. Default Value" % (dut.sel.value,dut.out.value)) 
             print("Respective inp pin value in binary : " + dict[i]+"\n")
             raise TestFailure("Failure!")
     print('\nCompletion of Python Basic Testcase Verification\n')
