@@ -8,7 +8,7 @@ from random import randrange
 
 @cocotb.test()
 async def test_mux(dut):
-    dict = {}                                                   # Creating dict dictonary for accesing all inp
+    dict = {}                                                  # Creating dict dictonary for accesing all inp
     for i in range(31):
         dict[i] = "dut.inp"+ str(i) + ".value"
     
