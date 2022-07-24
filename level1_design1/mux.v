@@ -36,8 +36,8 @@ module mux(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8,
       5'b01000: out = inp8;  
       5'b01001: out = inp9;  
       5'b01010: out = inp10;
-      5'b01011: out = inp11;
-      5'b01101: out = inp12;    // Bug 1 - Case 5'b01100 is misssing
+      5'b01011: out = inp11;    // Fixing The Bug
+      5'b01100: out = inp12;    // Bug 1 - Case 5'b01100 is misssing
       5'b01101: out = inp13;    // Bug 2 - case 5'b01101 canot reach to inp13 due to Bug 1
       5'b01110: out = inp14;
       5'b01111: out = inp15;
@@ -54,7 +54,7 @@ module mux(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8,
       5'b11010: out = inp26;
       5'b11011: out = inp27;
       5'b11100: out = inp28;
-      5'b11101: out = inp29;
+      5'b11101: out = inp29;     // Case 5'b11110 is Missing
       default: out = 0;
     endcase
   end
