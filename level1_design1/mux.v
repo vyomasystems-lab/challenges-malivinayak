@@ -54,7 +54,8 @@ module mux(sel,inp0, inp1, inp2, inp3, inp4, inp5, inp6, inp7, inp8,
       5'b11010: out = inp26;
       5'b11011: out = inp27;
       5'b11100: out = inp28;
-      5'b11101: out = inp29;     // Case 5'b11110 is Missing
+      5'b11101: out = inp29;      
+      5'b11110: out = inp30;         // Case 5'b11110 is Created
       default: out = 0;
     endcase
   end
