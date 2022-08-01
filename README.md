@@ -2,6 +2,12 @@
 
 ![image](https://user-images.githubusercontent.com/66154908/180637024-2e1cd07e-7534-40ce-a06b-83ca081358ab.png)
 
+## Bug Report
+1. [level1_design1](./level1_design1) - Multiplexer
+2. [level1_design2](./level1_design2) - Sequence Detector
+3. [level2_design](./level2_design) - Bitmanipulation Coprocessor
+4. [level3_design](./level3_design) - T-Intersection-Traffic-Signal-Control-System
+
 
 # Licenses
 [![Vyoma](https://img.shields.io/badge/License_1-Vyoma-blue.svg?style=flat-square)](./LICENSE.vyoma)
