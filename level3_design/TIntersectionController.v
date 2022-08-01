@@ -24,7 +24,7 @@ module TIntersectionController(
         end
         else
             case(ps)
-                S1: if(count<sec5)
+                S1: if(count<sec7)              // Bug 1 - Fixed
                         begin
                         ps<=S1;
                         count<=count+1;
@@ -101,7 +101,7 @@ module TIntersectionController(
                      
                     S1:
                     begin
-                       light_LS<=3'b001;
+                       light_LS<=3'b001;            // Bug 2 - Fixed
                        light_RB<=3'b001;
                        light_LR<=3'b100;
                        light_BR<=3'b100;
