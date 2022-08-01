@@ -5,7 +5,7 @@
 ## Bugs
 
 ### 0. Without Overlapping Basic Sequence ```1011```
-The Verloig Code works well with without overlapping sequence. When overlapping sequence occur verilog code fail to detect the sequence in particular cases
+The Verilog Code works well without overlapping sequence. When overlapping sequence occurs, verilog code fails to detect the sequence in particular cases
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66154908/182136103-f3f4e4ef-796d-4bc1-a733-22645d9c55fe.png"/>
