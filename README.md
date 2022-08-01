@@ -2,6 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/66154908/180637024-2e1cd07e-7534-40ce-a06b-83ca081358ab.png)
 
+## Bug Report
+
 1. [level1_design1](./level1_design1) 
 2. [level1_design2](./level1_design2)
 3. [level2_design](./level2_design)
