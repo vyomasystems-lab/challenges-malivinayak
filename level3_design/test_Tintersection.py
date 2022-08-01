@@ -27,10 +27,11 @@ async def test_seq_bug(dut):
     print(dut.light_BR.value)
     print()
 
-    for i in range(7):
+    for i in range(6):
         print(dut.ps.value) 
         await FallingEdge(dut.clk)
         assert dut.ps.value == 0, "\nBug Detected\nSignal State must be S0"
+        assert dut.light_LS.value == 1, "light_LS state must be 001"
         
     for i in range(3):
         print(dut.ps.value) 
