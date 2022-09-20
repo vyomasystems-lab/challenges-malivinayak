@@ -21,6 +21,8 @@ The program is supported  by the Chips to Startup (C2S) Program of the Govt of I
 3. [level2_design](./level2_design) - Bitmanipulation Coprocessor
 4. [level3_design](./level3_design) - T-Intersection-Traffic-Signal-Control-System
 
+## Certificate
+![Capture The Bug A Design Verification Hackathon 2022 Certificate](https://user-images.githubusercontent.com/66154908/191160773-213e6947-9d22-441f-ba3e-9f892912f42a.jpg)
 
 # Licenses
 [![Vyoma](https://img.shields.io/badge/License_1-Vyoma-blue.svg?style=flat-square)](./LICENSE.vyoma)
