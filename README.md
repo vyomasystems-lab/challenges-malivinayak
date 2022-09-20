@@ -16,10 +16,10 @@ This Hackathon is organized by NIELIT  Calicut and technically facilitated by  V
 The program is supported  by the Chips to Startup (C2S) Program of the Govt of India and Mentored by IIT Madras 
 
 ## Bug Report
-1. [level1_design1](./level1_design1) - Multiplexer
-2. [level1_design2](./level1_design2) - Sequence Detector
-3. [level2_design](./level2_design) - Bitmanipulation Coprocessor
-4. [level3_design](./level3_design) - T-Intersection-Traffic-Signal-Control-System
+1. [**level1_design1**](./level1_design1) - Multiplexer
+2. [**level1_design2**](./level1_design2) - Sequence Detector
+3. [**level2_design**](./level2_design) - Bitmanipulation Coprocessor
+4. [**level3_design**](./level3_design) - T-Intersection-Traffic-Signal-Control-System
 
 ## Certificate
 ![Capture The Bug A Design Verification Hackathon 2022 Certificate](https://user-images.githubusercontent.com/66154908/191160773-213e6947-9d22-441f-ba3e-9f892912f42a.jpg)
